@@ -546,6 +546,22 @@
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
+.william:hover .william_top,
+.william.active .william_top {
+	opacity: 1;
+}
+.william .text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 .ryan:hover .ryan_top,
 .ryan.active .ryan_top {
 	opacity: 1;
